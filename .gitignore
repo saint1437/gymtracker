@@ -1,0 +1,14 @@
+.gradle/
+.kotlin/
+build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+PROJECT_CONTEXT.md
+PROJECT_MAP.md
+TRAINING_GUIDE.md
+*.apk
+*.aab
+screenshots/

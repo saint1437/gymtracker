@@ -1,0 +1,1 @@
+# Room and Google Drive keep their public model metadata through their own rules.

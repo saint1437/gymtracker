@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_name">GymTracker</string>
+
+    <!-- Навигация и общие действия -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_plans">Планы</string>
+    <string name="nav_history">История</string>
+    <string name="nav_settings">Настройки</string>
+    <string name="action_back">Назад</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_return">Вернуться</string>
+    <string name="action_remove">Убрать</string>
+    <string name="action_up">Вверх</string>
+    <string name="action_down">Вниз</string>
+    <string name="action_cancel">Отмена</string>
+
+    <!-- Главная -->
+    <string name="home_hero_start">Начать</string>
+    <string name="home_hero_choose">Выбрать другую</string>
+    <string name="home_hero_subtitle">Можно изменить перед стартом</string>
+    <string name="home_active_title">Тренировка идёт</string>
+    <string name="home_continue">Продолжить</string>
+    <string name="home_presets_title">Пресеты</string>
+    <string name="home_presets_subtitle">Готовые схемы, меняются перед стартом</string>
+    <string name="home_last_title">Прошлая тренировка</string>
+    <string name="home_last_row">%1$s · %2$s кг · %3$s</string>
+    <string name="home_last_delta_up">+%1$s кг к прошлой</string>
+    <string name="home_last_delta_down">−%1$s кг к прошлой</string>
+    <string name="home_last_delta_same">как в прошлый раз</string>
+
+    <!-- Планы -->
+    <string name="plans_title">Планы</string>
+    <string name="plans_empty">Планов пока нет</string>
+    <string name="plans_create_action">Создать</string>
+
+    <!-- Конструктор -->
+    <string name="builder_title">Новый план</string>
+    <string name="builder_name_label">Название</string>
+    <string name="builder_name_placeholder">Например, «Ноги + плечи»</string>
+    <string name="builder_search">Найти упражнение</string>
+    <string name="builder_custom">Своё упражнение</string>
+    <string name="builder_continue">Продолжить · %1$s</string>
+    <string name="builder_nothing_found">Ничего не нашлось</string>
+    <string name="custom_exercise_title">Своё упражнение</string>
+    <string name="custom_exercise_name">Название</string>
+    <string name="custom_exercise_group">Группа мышц</string>
+    <string name="custom_exercise_equipment">Оборудование</string>
+    <string name="custom_exercise_add">Добавить</string>
+
+    <!-- Перед стартом -->
+    <string name="preview_title">Перед стартом</string>
+    <string name="preview_subtitle">Можно менять порядок и подходы</string>
+    <string name="preview_empty">Добавь хотя бы одно упражнение</string>
+    <string name="preview_start">Начать тренировку</string>
+    <string name="preview_save_plan">Сохранить план</string>
+    <string name="preview_sets_label">Подходы</string>
+    <string name="preview_drag_hint">Зажми карточку и перенеси её</string>
+
+    <!-- Каталог -->
+    <string name="catalog_title">Добавить упражнение</string>
+
+    <!-- Тренировка -->
+    <string name="active_add">Добавить</string>
+    <string name="active_finish">Завершить</string>
+    <string name="active_exercise_meta">%1$s · %2$d–%3$d · запас %4$d</string>
+    <string name="active_progression_badge">Готов к прибавке</string>
+    <string name="active_progression_hint">Можно +%1$s кг</string>
+    <string name="active_previous">Прошлый раз %1$s</string>
+    <string name="active_previous_empty">Первый раз — поставь рабочий вес</string>
+    <string name="active_set_title">Подход %1$d из %2$d</string>
+    <string name="active_log_set">Записать</string>
+    <string name="active_set_logged">Записан</string>
+    <string name="active_weight">Вес</string>
+    <string name="active_reps">Повторы</string>
+    <string name="active_rir">Запас</string>
+    <string name="active_rest_minus">−15 с</string>
+    <string name="active_rest_plus">+30 с</string>
+    <string name="active_rest_skip">Дальше</string>
+    <string name="active_finish_title">Завершить тренировку?</string>
+    <string name="active_finish_notes">Как прошло?</string>
+    <string name="active_finish_placeholder">Самочувствие, техника, что менять</string>
+    <string name="active_finish_confirm">Сохранить</string>
+    <string name="active_finish_snackbar">Тренировка сохранена</string>
+    <string name="active_not_found">Активная тренировка не найдена</string>
+    <string name="active_replace">Заменить</string>
+    <string name="active_replace_title">Заменить упражнение</string>
+    <string name="active_replace_hint">Выбери упражнение для этой позиции</string>
+    <string name="active_weight_input_title">Вес подхода</string>
+    <string name="active_weight_input_hint">Например, 140,5</string>
+    <string name="active_weight_input_save">Готово</string>
+
+    <!-- История -->
+    <string name="history_title">История</string>
+    <string name="history_empty">Здесь появятся тренировки</string>
+    <string name="history_detail_title">Детали тренировки</string>
+    <string name="history_detail_no_data">Не удалось загрузить детали</string>
+    <string name="history_set_completed">выполнен</string>
+    <string name="history_set_skipped">не выполнен</string>
+    <string name="history_set_row">Подход %1$d · %2$s · %3$d повторов · запас %4$d · отдых %5$s · %6$s</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_section_progression">Прогрессия</string>
+    <string name="settings_section_data">Данные</string>
+    <string name="settings_section_app">Приложение</string>
+    <string name="settings_section_extra">Дополнительно</string>
+    <string name="settings_step_title">Шаг веса · %1$s кг</string>
+    <string name="settings_step_hint">Базовый шаг для новых упражнений. Точный — 0,1 кг.</string>
+    <string name="settings_backup_title">Резервная копия</string>
+    <string name="settings_backup_subtitle">Все тренировки в одном файле</string>
+    <string name="settings_csv_title">Таблица для Excel</string>
+    <string name="settings_share_title">Отправить копию</string>
+    <string name="settings_share_subtitle">В другое приложение или на Drive</string>
+    <string name="settings_import_title">Импортировать копию</string>
+    <string name="settings_import_subtitle">Текущие данные сначала сохранятся</string>
+    <string name="settings_about_title">О приложении</string>
+    <string name="settings_about_subtitle">Версия %1$s</string>
+    <string name="settings_dev_hint">Репозиторий обновлений задаётся в local.properties</string>
+
+    <!-- Google Drive -->
+    <string name="drive_title">Google Drive</string>
+    <string name="drive_not_connected">Не подключён</string>
+    <string name="drive_connected">Подключён: %1$s</string>
+    <string name="drive_connect">Подключить</string>
+    <string name="drive_auto_sync">Синхронизировать автоматически</string>
+    <string name="drive_sync_now">Синхронизировать</string>
+    <string name="drive_offline_hint">Без интернета тренировки сохраняются локально</string>
+    <string name="drive_setup_hint">Подключи аккаунт, чтобы включить личную синхронизацию</string>
+
+    <!-- О приложении -->
+    <string name="about_title">О приложении</string>
+    <string name="about_subtitle">Дневник силовых тренировок</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_section_author">Автор</string>
+    <string name="about_author">saint1437 на GitHub</string>
+    <string name="about_author_subtitle">Профиль автора</string>
+    <string name="about_source">Исходный код</string>
+    <string name="about_source_subtitle">Репозиторий проекта</string>
+    <string name="about_section_updates">Обновления</string>
+    <string name="about_updates_checking">Проверяю…</string>
+    <string name="about_updates_none">Обновлений нет</string>
+    <string name="about_updates_available">Вышла версия %1$s</string>
+    <string name="about_updates_latest">Установлена последняя версия</string>
+    <string name="about_updates_check">Проверить</string>
+    <string name="about_updates_open">Открыть страницу релиза</string>
+    <string name="about_updates_offline">Проверка идёт только по кнопке и не мешает офлайн-режиму</string>
+    <string name="update_dialog_title">Вышла новая версия</string>
+    <string name="update_dialog_text">Версия %1$s уже опубликована</string>
+    <string name="update_dialog_open">Открыть</string>
+    <string name="update_dialog_later">Позже</string>
+
+    <!-- Сообщения -->
+    <string name="msg_copy_saved">Копия сохранена</string>
+    <string name="msg_save_failed">Не удалось сохранить файл</string>
+    <string name="msg_read_failed">Не удалось прочитать файл</string>
+    <string name="msg_csv_saved">Таблица сохранена</string>
+    <string name="msg_imported">Импортировано тренировок: %1$d</string>
+    <string name="msg_plan_saved">План сохранён</string>
+    <string name="msg_exercise_added">Упражнение добавлено</string>
+    <string name="msg_google_failed">Не удалось войти в Google</string>
+    <string name="msg_google_not_configured">Вход в Google не настроен</string>
+    <string name="msg_drive_offline">Нет связи с Drive. Всё сохранено локально</string>
+    <string name="msg_sync_queued">Синхронизация запущена</string>
+    <string name="msg_sync_done">Синхронизация завершена</string>
+    <string name="msg_share_failed">Не удалось подготовить копию</string>
+
+    <plurals name="exercises_count">
+        <item quantity="one">%d упражнение</item>
+        <item quantity="few">%d упражнения</item>
+        <item quantity="many">%d упражнений</item>
+        <item quantity="other">%d упражнения</item>
+    </plurals>
+
+    <plurals name="sets_count">
+        <item quantity="one">%d подход</item>
+        <item quantity="few">%d подхода</item>
+        <item quantity="many">%d подходов</item>
+        <item quantity="other">%d подхода</item>
+    </plurals>
+
+    <plurals name="sets_of_progress">
+        <item quantity="one">%1$d из %2$d подхода</item>
+        <item quantity="few">%1$d из %2$d подходов</item>
+        <item quantity="many">%1$d из %2$d подходов</item>
+        <item quantity="other">%1$d из %2$d подхода</item>
+    </plurals>
+    <string name="plans_custom_meta">Ручной план</string>
+</resources>
